@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #1ebfc1;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Common */
+.main-content {
+  width: 1170px;
+  max-width: calc(100% - 48px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  width: 186px;
+  height: 68px;
+  padding: 20px 40px;
+  border-radius: 14px;
+  background: #1ebfc1;
+  color: #fff;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+/* Header */
+.header .body {
+  display: flex;
+  padding: 57px 0 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Navbar */
+
+.header .navbar {
+  display: flex;
+}
+
+.header .navbar .logo-home {
+  margin-right: 235px;
+}
+
+.header .menu {
+  display: flex;
+  align-items: center;
+}
+
+.header .navbar .menu li a {
+  color: #2f3a3b;
+  font-size: 1.6rem;
+  font-weight: 400;
+  padding: 10px 20px;
+}
+
+.header .navbar .menu li a:hover {
+  text-shadow: 1px 0 0 currentColor;
+}
+
+/* Header Action */
+.header .action .sign-in {
+  color: #494949;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  padding: 12px 24px 12px;
+}
+
+.header .action .sign-in:hover {
+  text-shadow: 1px 0 0 currentColor;
+}
+
+.header .action .btn-sign-up {
+  padding: 12px 24px;
+  border-radius: 6px;
+  border: 1px solid var(--primary-color);
+  color: #1ebfc1;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.header .action .btn-sign-up:hover {
+  background-color: #f8f6f6;
+}
+
+.header .action .sign-in:hover {
+  color: #2f3a3b;
+}
+
+/* Hero */
+
+.hero .media-block {
+  margin-top: 150px;
+  width: 40%;
+}
